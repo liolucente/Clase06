@@ -56,3 +56,120 @@ html{
     background: white;
     color: rgb(177, 184, 243);
 }
+
+.banner-top{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#contenedor{
+    width: 90%;
+    margin: 0,auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.body{
+    background: tomato;
+}
+
+#contenedor img{
+    width: 100%;
+}
+
+.primero{
+    padding: 2%;
+}
+
+.segundo{
+    padding: 2%;
+}
+
+.tercero{
+    padding: 2%;
+}
+
+.footer{
+    margin-top: 10px;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer ul{
+    list-style: none;    
+}
+
+.data {
+    margin-top: 10px;
+}
+
+.map{
+    width: 60%;
+    height: 20%;
+}
+
+@media screen and (min-width: 660px) and (max-width:989px){
+
+    .body{
+        background: yellow;
+    }
+    .logo{
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-top{
+        display: none;
+    }
+
+    .primero{
+        width: 100%;
+    }
+
+    .primero figure{
+        height: 300px;
+        overflow: hidden;
+    }
+
+    .segundo{
+        width: 50%;
+    }
+
+    .tercero{
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width: 990px) and (max-width: 1900px){
+
+    .body{
+        background: rgb(42, 170, 221);
+    }
+
+}
+
+/* 
+    media querys de Bootstrap
+*/
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+ */
+/* // Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {  }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and up)
+ */
+@media (min-width: 1400px) {  }
